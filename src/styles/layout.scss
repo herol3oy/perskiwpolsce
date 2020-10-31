@@ -2,13 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
 
-$bg: #c3ffee;
+$bg: #DAE3E5;
+$about-bg: #BBD1EA;
 
 body {
   background-color: $bg;
   font-family: 'Roboto Mono', monospace;
 }
 
-.row {
+.hero {
   height: 100vh;
+}
+
+.about {
+  background-color: $about-bg;
 }
