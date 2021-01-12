@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Helmet>
-        <title>Hamed Sedighi :: Full stack developer (MERN)</title>
+        <title>Hamed Sedighi :: Front stack developer (MERN)</title>
       </Helmet>
       <div className='container'>
         <div className='hero row d-flex align-items-center'>
@@ -21,7 +21,7 @@ export default function Home() {
                 {` `}
                 <kbd>Hamed Sedighi</kbd>
               </span>
-            , a full stack developer
+            , a front stack developer
             focused on building minimal and beautiful web apps
             {` `}<span role='img' aria-label='hello'>👨‍💻</span>
             </h2>
