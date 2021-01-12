@@ -22,6 +22,7 @@ export default function Home() {
                 <kbd>Hamed Sedighi</kbd>
               </span>
             , a front stack developer
+
             focused on building minimal and beautiful web apps
             {` `}<span role='img' aria-label='hello'>👨‍💻</span>
             </h2>
