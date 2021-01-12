@@ -11,9 +11,10 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
-  "dependencies": {
+  "dependencies": { 
     "gatsby": "^2.26.1",
     "gatsby-plugin-react-helmet": "^3.4.0",
     "gatsby-plugin-sass": "^2.5.1",
@@ -28,6 +29,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/herol3oy/demah"
+    "url": "https://github.com/herol3oy/perskiwpolsce"
   }
 }
