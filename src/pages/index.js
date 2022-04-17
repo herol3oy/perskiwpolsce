@@ -44,7 +44,7 @@ export default function Home() {
         </div>
         <div className='row justify-content-center'>
           <section className='col-lg-4 col-6'>
-            <img src={'/femalerockers.png'} className='img-fluid' alt="Female Rockers" />
+            <img src={'femalerockers.png'} className='img-fluid' alt="Female Rockers" />
           </section>
           <article className='col-lg-8 text-lg-left text-center'>
             <h3 className='font-weight-bold mt-lg-0 mt-3'>
@@ -69,7 +69,7 @@ export default function Home() {
         </div>
         <div className='row justify-content-center my-5'>
           <section className='col-lg-4 col-6'>
-            <img src={'/elit.png'} className='img-fluid' alt="elit" />
+            <img src={'elit.png'} className='img-fluid' alt="elit" />
           </section>
           <article className='col-lg-8 text-lg-left text-center'>
             <h3 className='font-weight-bold mt-lg-0 mt-3'>
