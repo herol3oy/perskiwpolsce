@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`mx-auto my-10 w-full sm:w-11/12 px-10 md:w-7/12 xl:w-5/12 ${inter.className}`}
+        className={`mx-auto my-10 w-full px-10 sm:w-11/12 md:w-7/12 xl:w-5/12 ${inter.className}`}
       >
         <TopBar />
         {children}

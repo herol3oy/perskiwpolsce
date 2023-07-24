@@ -1,6 +1,7 @@
 import { HAMED_SEDIGHI_PORTRAIT } from '@/constance/my-portrait'
 import { formatDate } from '@/utils/format-date'
 import { getPostContent } from '@/utils/get-post-content'
+import { MarkdownOptions } from '@/utils/markdown-options'
 import Markdown from 'markdown-to-jsx'
 import Image from 'next/image'
 
@@ -34,7 +35,7 @@ const PostPage = ({ params }: PostPageProp) => {
       </div>
 
       <article className="mt-5">
-        <Markdown>{post.content}</Markdown>
+        <Markdown options={MarkdownOptions}>{post.content}</Markdown>
       </article>
     </>
   )
