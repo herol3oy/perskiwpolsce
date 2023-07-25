@@ -1,9 +1,0 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@layer utilities {
-  .transition-slow {
-    @apply transition-all duration-300;
-  }
-}
