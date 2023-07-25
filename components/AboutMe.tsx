@@ -2,6 +2,14 @@ import { FRAMEWORK_STACKS } from '@/constance/framework-stacks'
 import { HAMED_SEDIGHI_PORTRAIT } from '@/constance/my-portrait'
 import Image from 'next/image'
 
+const STACKS_BG_COLORS: { [key: string]: string } = {
+  Angular: 'hover:fill-red-600',
+  React: 'hover:fill-blue-600',
+  Nodejs: 'hover:fill-green-600',
+  TypeScript: 'hover:fill-blue-600',
+  Nextjs: 'hover:fill-gray-600',
+}
+
 const AboutMe = () => (
   <div className="mb-20 flex flex-col-reverse gap-5 xl:flex-row">
     <div className="flex flex-col gap-5">
@@ -9,13 +17,18 @@ const AboutMe = () => (
         Hey, I&apos;m Hamed <small className="text-purple-600">/hə.med/</small>
       </h1>
       <p className="text-gray-600">
-        Welcome to <code className="font-black">Metro Code</code> where I share
-        my thoughts and ideas as a front-end developer. I&apos;m a front-end
-        developer based in Warsaw, Poland focused on web applications using:
+        Welcome to <span className="font-black">Metro Code</span> where I share
+        my thoughts as a{' '}
+        <span className="font-black text-purple-600">front-end developer</span>.
+        I am based in Warsaw 🇵🇱 and primarily focus on developing web
+        applications using the following technologies:
       </p>
       <ul className="flex justify-center gap-5">
         {FRAMEWORK_STACKS.map((icon) => (
-          <li className="transition-slow w-7" key={icon.title}>
+          <li
+            className={`transition-slow w-7 ${STACKS_BG_COLORS[icon.title]}`}
+            key={icon.title}
+          >
             {icon.svg}
           </li>
         ))}

@@ -9,11 +9,14 @@ const TopBar = () => (
     <ul className="flex gap-1">
       {NAVIGATIONS.map((nav) => (
         <Link
-          className="w-20 rounded-full p-3 text-center text-sm font-bold transition-all duration-300 hover:bg-black hover:text-white"
-          href={`/${nav.toLocaleLowerCase()}`}
+          className="w-28 rounded-full p-3 text-center text-sm font-bold transition-all duration-300 hover:bg-black hover:text-white"
+          href={`/${nav.split(' ')[1].toLocaleLowerCase()}`}
           key={nav}
         >
-          <li>{nav}</li>
+          <li className="flex gap-2">
+            <span>{nav.split(' ')[0]}</span>
+            {nav.split(' ')[1]}
+          </li>
         </Link>
       ))}
     </ul>
