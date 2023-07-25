@@ -1,1 +1,1 @@
-export const NAVIGATIONS = ['About', 'Notes', 'Contact', 'Projects']
+export const NAVIGATIONS = ['🙋 About', '🛠️ Projects']
