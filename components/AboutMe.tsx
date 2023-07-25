@@ -20,7 +20,7 @@ const AboutMe = () => (
         Welcome to <span className="font-black">Metro Code</span> where I share
         my thoughts as a{' '}
         <span className="font-black text-purple-600">front-end developer</span>.
-        I am based in Warsaw 🇵🇱 and primarily focus on developing web
+        I am based in <span className='font-bold'>Warsaw 🇵🇱</span> and primarily focus on developing web
         applications using the following technologies:
       </p>
       <ul className="flex justify-center gap-5">
