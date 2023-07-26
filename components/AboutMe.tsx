@@ -18,10 +18,10 @@ const AboutMe = () => (
       </h1>
       <p className="text-gray-600">
         Welcome to <span className="font-black">Metro Code</span> where I share
-        my thoughts as a{' '}
+        about my thoughts and ideas on life and my favorite technologies as a{' '}
         <span className="font-black text-purple-600">front-end developer</span>.
-        I am based in <span className='font-bold'>Warsaw 🇵🇱</span> and primarily focus on developing web
-        applications using the following technologies:
+        I am based in <span className="font-bold">Warsaw 🇵🇱</span> and primarily
+        focus on developing web applications using the following technologies:
       </p>
       <ul className="flex justify-center gap-5">
         {FRAMEWORK_STACKS.map((icon) => (

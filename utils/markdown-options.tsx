@@ -17,6 +17,14 @@ const H3 = ({ children, ...props }: ComponentType) => (
   <h3 {...props}>{children}</h3>
 )
 
+const UL = ({ children, ...props }: ComponentType) => (
+  <ul {...props}>{children}</ul>
+)
+
+const LI = ({ children, ...props }: ComponentType) => (
+  <li {...props}>{children}</li>
+)
+
 const Link = ({ children, ...props }: ComponentType) => (
   <a {...props}>{children}</a>
 )
@@ -39,6 +47,18 @@ export const MarkdownOptions = {
       component: H3,
       props: {
         className: 'my-2 text-2xl font-bold',
+      },
+    },
+    ul: {
+      component: UL,
+      props: {
+        className: 'list-disc my-10',
+      },
+    },
+    li: {
+      component: LI,
+      props: {
+        className: 'text-red-800 font-bold',
       },
     },
     a: {
